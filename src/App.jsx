@@ -7,11 +7,17 @@ import AppRoutes from "./AppRoutes";
 function App() {
   const [cart, setCart] = useState([]);
 
+  function addToCart(item) {
+    setCart((prevCart) => [...prevCart, item]);
+    console.log("Item added to cart:", item);
+    console.log("Current cart:", [...cart, item]); // Log the updated cart
+  }
+
   return (
     <>
       <Router>
         <Header />
-        <AppRoutes />
+        <AppRoutes cart={cart} addToCart={addToCart} />
       </Router>
     </>
   );
