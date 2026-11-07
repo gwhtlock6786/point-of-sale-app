@@ -9,8 +9,8 @@ function App() {
 
   function addToCart(item) {
     setCart((prevCart) => [...prevCart, item]);
-    console.log("Item added to cart:", item);
-    console.log("Current cart:", [...cart, item]); // Log the updated cart
+    console.log("App.js-addToCart-function: Item added to cart:", item);
+    console.log("App.js-addToCart-function: Current cart:", [...cart, item]); // Log the updated cart
   }
 
   return (
