@@ -25,13 +25,6 @@ function App() {
     });
   }
 
-  // setCart((prevCart) => [...prevCart, newCartItem]);
-  // console.log("App.js-addToCart-function: Item added to cart:", newCartItem);
-  // console.log("App.js-addToCart-function: Current cart:", [
-  //   ...cart,
-  //   newCartItem,
-  // ]); // Log the updated cart
-
   return (
     <>
       <Router>

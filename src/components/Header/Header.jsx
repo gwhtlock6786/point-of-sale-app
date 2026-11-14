@@ -1,12 +1,19 @@
 import { Link } from "react-router";
+import "./Header.css";
 
 const Header = () => {
   return (
     <header>
       <nav className="main-nav">
-        <Link to="/">Home</Link>
-        <Link to="/store">Store</Link>
-        <Link to="/cart">Cart</Link>
+        <Link className="nav-link" to="/">
+          Home
+        </Link>
+        <Link className="nav-link" to="/store">
+          Store
+        </Link>
+        <Link className="nav-link" to="/cart">
+          Cart
+        </Link>
       </nav>
     </header>
   );

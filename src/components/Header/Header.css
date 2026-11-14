@@ -1,0 +1,20 @@
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  background-color: black;
+  padding: 20px;
+  margin: auto auto;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  transition: color 0.3s ease;
+}
+.nav-link:hover {
+  color: #007bff;
+}
